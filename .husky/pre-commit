@@ -1,5 +1,5 @@
-#!/usr/bin/env sh
+#!/bin/sh
 . "$(dirname -- "$0")/_/husky.sh"
 
 # pnpm lint
-pnpm lint
+pnpm spellcheck && npx lint-staged
