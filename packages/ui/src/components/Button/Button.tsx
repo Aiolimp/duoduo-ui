@@ -1,9 +1,3 @@
-import React from 'react'
-
-export interface ButtonProps {
-    title?: string
-}
-
-export const Button = ({ title }: ButtonProps) => {
-    return <button>{title}</button>
+export const Button = ({ title }: { title: string }) => {
+    return <button>{title}22222</button>
 }

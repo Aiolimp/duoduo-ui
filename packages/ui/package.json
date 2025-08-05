@@ -10,7 +10,7 @@
         "build": "tsup"
     },
     "keywords": [],
-    "author": "duiduo",
+    "author": "duoduo",
     "license": "ISC",
     "devDependencies": {
         "@types/react": "19.1.8",

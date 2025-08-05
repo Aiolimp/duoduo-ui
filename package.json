@@ -3,10 +3,9 @@
     "version": "1.0.0",
     "description": "多多组件库",
     "main": "index.js",
+    "packageManager": "pnpm@9.13.2",
     "scripts": {
-        "dev:docs": "pnpm --filter @duoduo/docs dev",
-        "dev:ui": "pnpm --filter @duoduo/ui dev",
-        "dev": "pnpm dev:docs & pnpm dev:ui",
+        "dev": "turbo dev",
         "lint:es": "eslint packages/**/*.js",
         "spellcheck": "cspell lint --dot --gitignore --color --cache --show-suggestions \"(packages|apps)/**/*.@(html|js|cjs|mjs|ts|tsx|css|scss|md)\"",
         "lint:style": "stylelint \"{packages,apps}/**/*.{css,ts}\"",
@@ -15,7 +14,7 @@
         "lint": "npm run lint:es && npm run lint:style"
     },
     "keywords": [],
-    "author": "duiduo",
+    "author": "duoduo",
     "license": "ISC",
     "config": {
         "commitizen": {
@@ -44,6 +43,7 @@
         "cz-git": "1.9.3",
         "commitizen": "4.2.4",
         "@commitlint/config-conventional": "19.2.2",
-        "lint-staged": "15.2.7"
+        "lint-staged": "15.2.7",
+        "turbo": "2.0.5"
     }
 }
