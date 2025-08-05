@@ -1,0 +1,22 @@
+{
+    "name": "@duoduo/ui",
+    "version": "1.0.0",
+    "description": "多多组件库",
+    "main": "index.js",
+    "module": "es/index.mjs",
+    "types": "es/index.d.mts",
+    "scripts": {
+        "dev": "tsup --watch",
+        "build": "tsup"
+    },
+    "keywords": [],
+    "author": "duiduo",
+    "license": "ISC",
+    "devDependencies": {
+        "@types/react": "19.1.8",
+        "tsup": "8.1.0"
+    },
+    "peerDependencies": {
+        "react": "19.1.0"
+    }
+}

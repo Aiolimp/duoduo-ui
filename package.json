@@ -4,6 +4,9 @@
     "description": "多多组件库",
     "main": "index.js",
     "scripts": {
+        "dev:docs": "pnpm --filter @duoduo/docs dev",
+        "dev:ui": "pnpm --filter @duoduo/ui dev",
+        "dev": "pnpm dev:docs & pnpm dev:ui",
         "lint:es": "eslint packages/**/*.js",
         "spellcheck": "cspell lint --dot --gitignore --color --cache --show-suggestions \"(packages|apps)/**/*.@(html|js|cjs|mjs|ts|tsx|css|scss|md)\"",
         "lint:style": "stylelint \"{packages,apps}/**/*.{css,ts}\"",

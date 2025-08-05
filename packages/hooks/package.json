@@ -1,0 +1,11 @@
+{
+    "name": "@duoduo/hooks",
+    "version": "1.0.0",
+    "description": "多多hooks",
+    "main": "index.js",
+    "scripts": {},
+    "keywords": [],
+    "author": "duiduo",
+    "license": "ISC",
+    "devDependencies": {}
+}
