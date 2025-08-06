@@ -1,11 +1,9 @@
+import React from 'react'
+
 import { Button } from '@duoduo/ui'
 
-const Basic = () => {
-    return (
-        <div>
-            <Button title="Click me1111" />
-        </div>
-    )
+const Basic: React.FC = () => {
+    return <Button variant="default">Click</Button>
 }
 
 export default Basic
